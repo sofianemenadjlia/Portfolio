@@ -1,0 +1,67 @@
+/* NavbarStyles.css */
+
+/* Style de base pour la navbar */
+.navbar {
+  background-color: #333;
+}
+
+/* Style pour le lien actif */
+.navbar a.active {
+  color: #2b77e7;
+}
+
+/* Style pour l'icône du menu mobile */
+.navbar .menu-icon {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* Media query pour les écrans de taille moyenne (md) et plus grands */
+@media screen and (min-width: 48em) {
+  /* Afficher les liens de navigation et masquer l'icône du menu mobile */
+  .navbar .menu-icon {
+    display: none;
+  }
+
+  .navbar nav {
+    display: flex;
+  }
+
+  .navbar nav a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #1d2235;
+  }
+}
+
+/* Media query pour les écrans plus petits que la taille moyenne (md) */
+@media screen and (max-width: 47.9375em) {
+  /* Masquer les liens de navigation et afficher l'icône du menu mobile */
+  .navbar nav {
+    display: none;
+  }
+
+  .navbar .menu-icon {
+    display: block;
+  }
+
+  .navbar nav.show-mobile {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: auto;
+    background-color: white;
+    z-index: 2000000; /* Ajustez la valeur de z-index selon vos besoins */
+  }
+
+  .navbar nav.show-mobile a {
+    display: block;
+    width: auto;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #333;
+    box-sizing: border-box;
+  }
+}

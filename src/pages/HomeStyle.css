@@ -1,0 +1,31 @@
+/* Styles de base pour le conteneur */
+.container {
+  width: 100%;
+  /* max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 20px;
+  /* Ajoutez d'autres styles spécifiques à votre conception */
+
+  /* Assurez-vous que les enfants du conteneur ont une largeur de 100% */
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Styles pour rendre les div et les sections réactives à l'intérieur du conteneur */
+.container div,
+.container section {
+  width: 100%; /* Les div et les sections occupent 100% de la largeur du conteneur */
+  box-sizing: border-box;
+  /* margin-bottom: 20px; /* Espace entre les éléments à l'intérieur du conteneur */
+
+  /* Ajoutez d'autres styles spécifiques à vos div et sections si nécessaire */
+}
+
+/* Styles pour rendre les images réactives à l'intérieur des sections */
+.container section img {
+  max-width: 100%; /* Les images à l'intérieur des sections ne dépasseront pas la largeur de la section */
+  height: auto;
+  display: block; /* Supprime l'espace supplémentaire sous les images inline */
+  margin: 0 auto; /* Centre les images horizontalement à l'intérieur de leur section */
+}
