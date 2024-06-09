@@ -32,8 +32,8 @@ const Contact = () => {
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
 
-        "service_k9607b5",
-        "template_31a73by",
+        "service_6znsl96",
+        "template_p806flf",
         {
           from_name: form.name,
           to_name: "Sofiane",
@@ -42,7 +42,7 @@ const Contact = () => {
           message: form.message,
         },
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-        "6p-Mn-DV-TPRSair7"
+        "Zzy0opY4kAQOTnZnc"
       )
       .then(
         () => {
