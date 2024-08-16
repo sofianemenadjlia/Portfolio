@@ -142,7 +142,7 @@ export const experiences = [
     company_name: "OARO/Miraxyz",
     icon: miraxyz,
     iconBg: "#7bdaff",    
-    date: "April 2023 - August 2023",
+    date: "March 2024 - August 2024",
     points: [
       "Developed a proof of concept for a computer vision based camera tracking tool (SLAM Method).",
       "Resumed ORB-SLAM 3 and updated the code and compiler version in an automated script.",
@@ -156,7 +156,7 @@ export const experiences = [
     company_name: "University of Bordeaux",
     icon: xlfg,
     iconBg: "#000000",
-    date: "June 2019 - July 2019",
+    date: "June 2021 - July 2021",
     points: [
       "Migration of the database to a new version of XLFG.org",
       "Designed a database migration script for XLFG.org",
