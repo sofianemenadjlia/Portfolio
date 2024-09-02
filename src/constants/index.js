@@ -75,7 +75,7 @@ export const skills = [
   },
   {
     imageUrl: php,
-    name: "TypeScript",
+    name: "Php",
     type: "Frontend",
   },
   {
@@ -83,26 +83,26 @@ export const skills = [
     name: "JavaScript",
     type: "Frontend",
   },
-  {
-    imageUrl: typescript,
-    name: "TypeScript",
-    type: "Frontend",
-  },
+  // {
+  //   imageUrl: typescript,
+  //   name: "TypeScript",
+  //   type: "Frontend",
+  // },
   {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
   },
-  {
-    imageUrl: postgresqlname,
-    name: "PostgreSQL",
-    type: "Database",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
+  // {
+  //   imageUrl: postgresqlname,
+  //   name: "PostgreSQL",
+  //   type: "Database",
+  // },
+  // {
+  //   imageUrl: nodejs,
+  //   name: "Node.js",
+  //   type: "Backend",
+  // },
   {
     imageUrl: express,
     name: "Express",
@@ -113,11 +113,11 @@ export const skills = [
     name: "Springboot",
     type: "Backend",
   },
-  {
-    imageUrl: angular,
-    name: "Angular",
-    type: "Backend",
-  },
+  // {
+  //   imageUrl: angular,
+  //   name: "Angular",
+  //   type: "Backend",
+  // },
   {
     imageUrl: docker,
     name: "Docker",
